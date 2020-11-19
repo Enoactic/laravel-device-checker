@@ -4,7 +4,7 @@ namespace LaravelDeviceChecker;
 
 use Jenssegers\Agent\Agent;
 
-class CheckerDevice
+class Checker
 {
     static function getAgent()
     {
