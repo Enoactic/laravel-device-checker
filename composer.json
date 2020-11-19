@@ -1,0 +1,22 @@
+{
+    "name": "enoactic/laravel-device-checker",
+    "description": "",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Boonyaphat Intasin",
+            "email": "aosmosiss-ze@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "LaravelDeviceChecker\\": "src/LaravelDeviceChecker"
+        }
+    },
+    "require": {
+        "php": ">=7.1.33",
+        "jenssegers/agent": "^2.6"
+    }
+}
